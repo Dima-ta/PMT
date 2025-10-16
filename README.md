@@ -1,5 +1,5 @@
 
-# PMT – Project Management Tool (Complete Starter)
+# PMT _ Project Management Tool 
 
 Conforme aux exigences: Angular + Spring Boot + PostgreSQL, schema SQL + seed, tests (≥60% visé), CI/CD (GitHub Actions), Dockerfiles (front/back), push Docker Hub, procédure de déploiement.
 
