@@ -1,0 +1,1 @@
+package org.pmt.web.dto; import jakarta.validation.constraints.*; import java.time.*; public record TaskCreateDto(@NotBlank String title,String description,LocalDate dueDate){}

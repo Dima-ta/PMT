@@ -1,0 +1,1 @@
+package org.pmt.web.dto; import org.pmt.domain.ProjectRole; import jakarta.validation.constraints.*; public record MemberAddDto(@NotNull Long userId, @NotNull ProjectRole role){}

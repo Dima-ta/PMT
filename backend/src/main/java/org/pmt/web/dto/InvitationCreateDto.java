@@ -1,0 +1,1 @@
+package org.pmt.web.dto; import org.pmt.domain.ProjectRole; import jakarta.validation.constraints.*; public record InvitationCreateDto(@Email String email, ProjectRole role){}

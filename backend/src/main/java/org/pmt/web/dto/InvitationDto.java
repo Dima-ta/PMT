@@ -1,0 +1,1 @@
+package org.pmt.web.dto; import org.pmt.domain.ProjectRole; import java.time.*; public record InvitationDto(Long id, Long projectId, String email, ProjectRole role, String token, String status, Instant createdAt, Instant expiresAt){}

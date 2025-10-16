@@ -1,0 +1,1 @@
+package org.pmt.web.dto; import java.time.*; public record ProjectDto(Long id,String name,String description,LocalDate startDate,Long ownerId,Instant createdAt){}
