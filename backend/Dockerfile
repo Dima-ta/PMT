@@ -1,9 +1,9 @@
-# Use Java 21 to support Java Records
 FROM maven:3.9-eclipse-temurin-21 AS build
 WORKDIR /app
 COPY pom.xml .
 RUN mvn -q -B -DskipTests dependency:go-offline
 COPY src ./src
+RUN java -version && mvn -v
 RUN mvn -q -B -DskipTests package
 
 FROM eclipse-temurin:21-jre
